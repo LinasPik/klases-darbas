@@ -1,0 +1,84 @@
+.sachmatai {
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+
+    display: grid;
+}
+
+.sachmatai > div {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid black;
+    display: inline-grid;
+    place-items: center;
+    justify-content: center;
+    background: gray;
+}
+
+
+.sachmatai > div:nth-of-type(4n+4){
+    background: green;
+}
+
+.sachmatai > div:nth-of-type(4n+2){
+    background: blue;
+}
+
+.sachmatai > div:nth-of-type(2n+16){
+    background: pink;
+}
+
+.darbai {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-gap: 10px;
+
+}
+
+.darbas > img {
+    position: relative;
+    z-index: 999;
+}
+
+#pad {
+    border: 2px solid black;
+}
+
+#dark_screen{
+    background-color: black;
+    opacity: 0.8    ;
+    position: fixed;
+    display: none;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 1001;
+
+}
+
+.darbas > img.clicked{
+  transform: scale(2);
+  z-index: 2000;
+}
+
+form {
+    margin-bottom: 20px;
+
+}
+
+
+/*
+
+form > * {
+    display: inline;
+}
+
+.darbas > img.clicked:hover{
+  transform: scale(1.5);
+  z-index: 2000;
+}
+*/

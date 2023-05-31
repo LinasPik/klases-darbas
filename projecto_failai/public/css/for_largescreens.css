@@ -1,0 +1,26 @@
+@media only screen and (min-width: 1080px) {
+
+    body{
+        grid-template-areas:
+            "h h h h h h h h h h h h"
+            "m m m m m m m m m m a a"
+            "f f f f f f f f f f f f"
+    }
+
+    .sachmatai{
+        width: 600px;
+    }
+
+    #pad{
+        height: 600px;
+        width: 600px;
+    }
+
+
+    .sachmatai > div {
+        width: 100px;
+        height: 100px;
+
+    }
+
+}

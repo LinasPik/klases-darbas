@@ -1,0 +1,6 @@
+{"portfolio": "PortfolioController",
+"cv": "CvController",
+"kontaktai": "KontaktaiController",
+"index": "IndexController",
+"admin": "AdminController",
+"404": "NotFoundController"}

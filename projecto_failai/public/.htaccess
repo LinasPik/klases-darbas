@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Check if the request doesn't match an existing file or directory
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Redirect to the JS/redirect.js file if the request doesn't match an existing file or directory
+# RewriteRule ^(.*)$ JS/redirect.js [L]
+
+RewriteRule ^(.*)$ index.html [L]
+

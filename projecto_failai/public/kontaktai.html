@@ -1,0 +1,35 @@
+<main>
+    <div class="kontaktai">
+        <h1>Mano kontaktai</h1>
+        <form action="kursiustiduomenis.php" method="post" id="kontaktu_forma">
+            <div>
+                <label for="vardas">Vardas</label>
+                <input type="text" name="vardas" id="vardas">
+            </div>
+            <div>
+                <label for="pavarde">Pavarde</label>
+                <input type="text" name="pavarde" id="pavarde">
+            </div>
+            <div id ='email_div_1'>
+                <label for="email">El. paštas</label>
+                <input type="email" name="email" id="email">
+                <label id="add_mail">+</label>
+            </div>
+            <div id="kursas_div">
+                <label for="kursas" >Kursas</label>
+                <select name="kursas" id="kursas">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+            <div>
+                <label for="komentaras">Komentaras</label>
+                <textarea name="komentaras" id="komentaras" cols="30" rows="10"></textarea>
+            </div>
+
+            <button type="submit">Siųsti</button>
+        </form>
+    </div>
+</main>

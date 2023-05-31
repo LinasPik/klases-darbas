@@ -1,0 +1,104 @@
+
+@media only screen and (min-width: 600px){
+
+body{
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-template-rows: 70px auto 30px;
+        grid-gap: 10px;
+        grid-template-areas:
+        "h h h h h h h h h h h h"
+        "m m m m m m m m m a a a"
+        "f f f f f f f f f f f f"
+}
+
+
+    .sachmatai{
+        width: 400px;
+    }
+
+    #pad{
+        height: 400px;
+        width: 400px;
+    }
+
+
+    .sachmatai > div {
+        width: 70px;
+        height: 70px;
+        margin: 5px;
+        padding: 5px;
+        border: 1px solid black;
+        display: flex;
+        place-items: center;
+        background: gray;
+
+        transition: transform 0.8s ease;
+    }
+
+    .sachmatai > div:active{
+
+        transform: scale(1.7);
+        z-index: 1001;
+
+    }
+
+    .sachmatai > div:nth-of-type(4n+4){
+        background: green;
+    }
+
+    .sachmatai > div:nth-of-type(4n+2){
+        background: blue;
+    }
+
+    .sachmatai > div:nth-of-type(2n+16){
+        background: pink;
+    }
+
+    .darbai {
+        max-width: 95%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-gap: 2px;
+}
+
+    .darbas{
+        max-width: 100%;
+    }
+
+    .darbas > img{
+        width: 80%;
+        transition: transform 0.5s ease;
+    }
+
+
+    .darbas > img:hover {
+        transform: scale(1.25);
+        z-index: 1001;
+
+    }
+
+
+    .darbas > img.clicked:hover {
+        transform: scale(1.5);
+        z-index: 2000;
+
+    }
+
+
+    nav {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-areas:
+        "a a a a";
+    }
+
+    nav > a {
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+}
+
+}
+

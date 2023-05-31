@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Svetainės dizainas",
+    "img": "https://picsum.photos/200/300",
+    "categories": "html css"
+  },
+  {
+    "title": "JS laikmatis",
+    "img": "https://picsum.photos/200/300",
+    "categories": "js"
+  },
+  {
+    "title": "Vartotojo registracija",
+    "img": "https://picsum.photos/200/300",
+    "categories": "html css js"
+  },
+  {
+    "title": "Python API",
+    "img": "https://picsum.photos/200/300",
+    "categories": "python"
+  },
+  {
+    "title": "MySQL duomenų bazės valdymas",
+    "img": "https://picsum.photos/200/300",
+    "categories": "mysql"
+  },
+  {
+    "title": "CSS animacija",
+    "img": "https://picsum.photos/200/300",
+    "categories": "html css"
+  },
+  {
+    "title": "JS kalbos mokymasis",
+    "img": "https://picsum.photos/200/300",
+    "categories": "js"
+  },
+  {
+    "title": "Knygų katalogas",
+    "img": "https://picsum.photos/200/300",
+    "categories": "html css js"
+  },
+  {
+    "title": "Django svetainė",
+    "img": "https://picsum.photos/200/300",
+    "categories": "python"
+  },
+  {
+    "title": "MySQL duomenų bazės migracija",
+    "img": "https://picsum.photos/200/300",
+    "categories": "mysql"
+  },
+  {
+    "title": "HTML5 video įrašas",
+    "img": "https://picsum.photos/200/300",
+    "categories": "html css"
+  },
+  {
+    "title": "JS kalbos sudėtingesni pavyzdžiai",
+    "img": "https://picsum.photos/200/300",
+    "categories": "js"
+  },
+  {
+    "title": "Knygos rekomendacijos",
+    "img": "https://picsum.photos/200/300",
+    "categories": "html css js"
+  },
+  {
+    "title": "Django vartotojų autentifikacija",
+    "img": "https://picsum.photos/200/300",
+    "categories": "python"
+  },
+  {
+    "title": "MySQL duomenų bazės atsarginė kopija",
+    "img": "https://picsum.photos/200/300",
+    "categories": "mysql"
+  },
+  {
+    "title": "CSS grafinis meniu",
+    "img": "https://picsum.photos/200/300",
+    "categories": "css"
+  }
+]
