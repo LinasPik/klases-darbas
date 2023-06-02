@@ -131,4 +131,16 @@
 
 }
 
+
+
+
+
+    #korteles {
+            flex-direction: column;
+        }
+
+    #korteles .side {
+        flex-basis: 100%;
+    }
+
  }

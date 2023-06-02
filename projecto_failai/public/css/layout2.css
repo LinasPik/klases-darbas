@@ -22,6 +22,9 @@ body > main {
     padding: 10px;
     margin-left: 5px;
 
+    flex-direction: column; /* stacks the children vertically */
+    align-items: stretch; /* children stretch to fill the width */
+
 }
 
 

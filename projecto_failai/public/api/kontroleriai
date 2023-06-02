@@ -3,4 +3,5 @@
 "kontaktai": "KontaktaiController",
 "index": "IndexController",
 "admin": "AdminController",
-"404": "NotFoundController"}
+"404": "NotFoundController",
+"korteles": "KortelesController"}

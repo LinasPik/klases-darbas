@@ -89,9 +89,9 @@ body{
 
     nav {
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(5, 1fr);
         grid-template-areas:
-        "a a a a";
+        "a a a a a";
     }
 
     nav > a {

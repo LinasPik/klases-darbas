@@ -3,17 +3,20 @@ export class Api {
         this.url = 'http://localhost';
     }
 
-    get(url) {
-        return fetch(`${this.url}/${url}`)
+    get(url, other = false) {
+        url = (other)? url : `${this.url}/${url}`;
+        return fetch(url)
             .then(response => response.json());
     }
 
-    getText(url) {
-        return $.get(`${this.url}/${url}`);
+    getText(url, other = false) {
+        url = (other)? url : `${this.url}/${url}`;
+        return $.get(url);
     }
 
-    post(url, data) {
-        return fetch(`${this.url}/${url}`, {
+    post(url, data, other = false) {
+        url = (other)? url : `${this.url}/${url}`;
+        return fetch(url, {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -23,8 +26,9 @@ export class Api {
             .then(response => response.json());
     }
 
-    put(url, data) {
-        return fetch(`${this.url}/${url}`, {
+    put(url, data, other = false) {
+        url = (other)? url : `${this.url}/${url}`;
+        return fetch(url, {
             method: 'PUT',
             headers: {
                 'Content-Type': 'application/json',
@@ -34,8 +38,9 @@ export class Api {
             .then(response => response.json());
     }
 
-    delete(url) {
-        return fetch(`${this.url}/${url}`, {
+    delete(url, other = false) {
+        url = (other)? url : `${this.url}/${url}`;
+        return fetch(url, {
             method: 'DELETE',
         })
             .then(response => response.json());
