@@ -1,0 +1,90 @@
+<main>
+<div id="tabs">
+    <div class="tab active" id="tab1">Create</div>
+    <div class="tab show_tab" id="tab2">Show<span class="exit">X</span></div>
+    <div class="tab edit_tab" id="tab3">Edit<span class="exit">X</span></div>
+    <div class="tab" id="tab4">...<span class="exit">X</span></div>
+</div>
+<div class="content  active_c" id="content1">
+
+<div id="korteles" >
+    <div id="forma" class="side">
+        <h1>FlashCards</h1>
+        <form>
+            <div>
+                <label for="front">Front of the Card (Definition or Question)</label><br>
+                <textarea name="front" id="front" cols="40" rows="7"></textarea>
+            </div>
+            <div>
+                <label for="back">Back of the Card (Term or Answer)</label><br>
+                <textarea name="back" id="back" cols="40" rows="7"></textarea>
+            </div>
+
+            <button id="save">Save Card</button><br>
+            <button id="review">Review Cards</button>
+        </form>
+    </div>
+    <div id="info" class="side">
+        <h2>Make a FlashCard</h2>
+        <p>Let's make a flash card. On the front of the flash card pu the term or question you're trying to remember and the definition or answer on the back.</p>
+        <p id="count">Number of FlashCards: 0</p>
+    </div>
+</div>
+
+</div>
+    <div class="content" id="content2">
+        <div id="showC">
+            <div class="card">
+              <div class="card-inner">
+                <div class="card-front" id="front2">
+                </div>
+                <div class="card-back" id="back2">
+                </div>
+              </div>
+            </div>
+            <button id="next" class="showB">Next</button><br>
+            <button id="edit" class="showB">Edit</button><br>
+            <button id="delete" class="showB">Delete</button>
+        </div>
+    </div>
+
+    <div class="content edit_content" id="content3">
+        <div id="edit_card" class="side">
+            <div>
+            <h1>FlashCards</h1>
+                <form id="form1">
+                    <div>
+                        <label for="front">Front of the Card (Definition or Question)</label><br>
+                        <textarea name="front" id="front3" cols="40" rows="7"></textarea>
+                    </div>
+                    <div>
+                        <label for="back">Back of the Card (Term or Answer)</label><br>
+                        <textarea name="back" id="back3" cols="40" rows="7"></textarea>
+                    </div>
+
+                    <button id="save_edit">Save Changes</button><br>
+                    <button id="next_edit">Next</button><br>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="content" id="content4">
+        <div id="new_tab">
+            <form>
+                <div>
+                    <label for="tabName">Tab name: </label><br>
+                    <input type="text" name="tabName" id="tabName">
+                </div>
+                <div>
+                    <label for="tabContent">Tab content</label><br>
+                    <textarea name="tabContent" id="tabContent" rows="15"></textarea>
+                </div>
+
+                <button type="submit" id="submit">Add Tab</button>
+            </form>
+        </div>
+    </div>
+
+</main>
+
